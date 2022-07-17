@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>DREAM MEMORIES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/5.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="packages.html">PACKAGES</a></li>
+                    <li><a href="next.html">PHOTOGRAPHY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <h1>OUR PACKAGES</h1>
+    </section>
+    <!----Packages---->
+
+
+    <section class="course">
+        <h1>Modern Wedding Stories for the Discerning Couple</h1>
+        <p>Budgeting for wedding photography and cinematography depends on the size and type of your wedding.
+            Get in touch with us, and we will customise a photography and<br> cinematography package
+            that is based on how much or how little you need.
+            We typically offer the following types of packages. .</p>
+
+        <h1>Typical Wedding Packages..</h1>
+
+        <div class="row">
+            <div class="packages-left">
+
+                <img src="images/21.jpg">
+                <h2>2 Day Wedding Packages</h2>
+                <p> Our two day wedding packages will cover one pre-function (like a Mehendi or a Sangeet)
+                    and the main wedding day. Typical deliverables a full set of 800+ fully edited wedding pictures
+                    that form your main wedding story,additional images of friends and family, a wedding film with
+                    a short teaser and optionally additional wedding albums. </p>
+
+                <h2>Additional Days</h2>
+                <p>You can always add additional days to your wedding photography package that<br> includes
+                    smaller pre-functions or even post wedding events like a separate reception. </p>
+                <h2> Rokas / Engagements</h2>
+                <p>Getting hitched, but not sure about your wedding date yet? We’d love to start our journey
+                    with you right from the beginning! Our Roka packages include photography and a video,
+                    as well as a coffee table book from your day!</p>
+
+                <h2> Pre-Wedding Shoots</h2>
+                <p>Not set a date yet but want to create a fun, memorable album of memories
+                    with your significant other? We’re here to help! Our pre-wedding sessions
+                    can be as short as a few hours to multiple days spanning different locations across the world! </p>
+
+
+                <div class="comment-box">
+
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter your Name">
+                        <input type="email" placeholder="Enter your Email">
+                        <textarea rows="5" placeholder="Your comment"> </textarea>
+                        <button type="submit" class="hero-btn red-btn">POSTCOMMENT</button>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+            <div class="packages-right">
+                <h3>packages</h3>
+                <div>
+                    <span>One day shoot</span>
+                    <span>Rs.15000/</span>
+                </div>
+                <div>
+                    <span>Two days shoot</span>
+                    <span>Rs.28000/</span>
+                </div>
+                <div>
+                    <span>Pre-Wedding Shoots</span>
+                    <span>Rs.35000/</span>
+                </div>
+                <div>
+                    <span>Wedding shoots</span>
+                    <span>Rs.63000/</span>
+                </div>
+                <div>
+                    <span>Drone shoots</span>
+                    <span>Rs.5000 per shoot</span>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-----javascript for toggle menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+
+    </script>
+
+</body>
+
+</html>

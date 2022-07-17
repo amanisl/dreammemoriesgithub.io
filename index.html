@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>DREAM MEMORIES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+family=poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/5.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="packages.html">PACKAGES</a></li>
+                    <li><a href="next.html">PHOTOGRAPHY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+        <div class="text-box">
+            <h1>Dhanbad Best Photography</h1>
+            <p>“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured
+                forever…<br>
+                It remembers little things, long after you have forgotten everything.”
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!----offer--->
+    <section class="course">
+        <h1>Photography We Offer</h1>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Wedding Photography</h3>
+                <p>photography is a moment of embarrassment and a lifetime of pleasure.</p>
+            </div>
+
+            <div class="course-col">
+                <h3> Pre Wedding Photography</h3>
+                <p>photography is a moment of embarrassment and a lifetime of pleasure.</p>
+            </div>
+            <div class="course-col">
+                <h3>Drone Shot</h3>
+                <p>photography is a moment of embarrassment and a lifetime of pleasure.</p>
+            </div>
+        </div>
+    </section>
+    <!----new section--->
+    <section class="Wedding">
+        <h1>Wedding stories</h1>
+        <p>We believe wedding photography should be unscripted,
+            fun and timeless.</p>
+
+        <div class="row">
+            <div class="Wedding-col">
+                <img src="images/31.JPG">
+            </div>
+            <div class="Wedding-col">
+                <img src="images/33.JPG">
+            </div>
+            <div class="Wedding-col">
+                <img src="images/32.JPG">
+            </div>
+        </div>
+    </section>
+
+    <!-----Call to Action---->
+    <section class="cta">
+        <h1>Are you getting married? Lets make something magical together!<br>
+            Get in touch with us today,</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+
+
+    <!-----Footer----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>In 2015 we shot our first wedding, and found ourself amongst the pioneers
+            <br>who established what “candid” wedding photography
+            would be in the years to come.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+    </section>
+
+
+
+    <!-----javascript for toggle menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
